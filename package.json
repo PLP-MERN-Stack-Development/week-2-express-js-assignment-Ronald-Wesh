@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "dev":"nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
   "homepage": "https://github.com/PLP-MERN-Stack-Development/week-2-express-js-assignment-Ronald-Wesh#readme",
   "dependencies": {
     "body-parser": "^2.2.0",
-    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
     "uuid": "^11.1.0"
